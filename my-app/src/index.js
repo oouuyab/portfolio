@@ -1,6 +1,6 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import 'bootstrap/dist/css/bootstrap.css'
-import Counter from './components/counter'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
+import Intro from './components/introSection';
 
-ReactDOM.render(<Counter />, document.getElementById('root'))
+ReactDOM.render(<Intro />, document.getElementById('root'));
